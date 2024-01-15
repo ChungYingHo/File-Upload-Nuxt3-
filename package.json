@@ -7,9 +7,11 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "deploy": "gh-pages --dotfiles -d .output/public"
   },
   "devDependencies": {
+    "gh-pages": "^6.1.1",
     "nuxt": "^3.9.0",
     "vite-plugin-vuetify": "^2.0.1",
     "vue": "^3.4.6",
